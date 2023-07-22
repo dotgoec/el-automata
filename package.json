@@ -1,0 +1,22 @@
+{
+  "name": "el-automata",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotgoec/el-automata.git"
+  },
+  "author": "DOT_GO",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dotgoec/el-automata/issues"
+  },
+  "homepage": "https://github.com/dotgoec/el-automata#readme",
+  "dependencies": {
+    "openai": "^3.3.0"
+  }
+}
