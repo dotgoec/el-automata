@@ -1,6 +1,6 @@
-import dotenv from 'dotenv'
+import dotenv from 'dotenv';
 dotenv.config();
-import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
+import { ChatGPTUnofficialProxyAPI } from 'chatgpt';
 import express from 'express';
 import { Server } from "socket.io";
 
@@ -12,9 +12,9 @@ app.get("/", (req, res) => {
 
 app.listen(process.env.PORT);
 
-
 async function main() {
     try {
+
     } catch (error) {
         if (error.response) {
             console.log("Status:",error.response.status);
