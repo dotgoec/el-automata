@@ -2,7 +2,8 @@
   "name": "el-automata",
   "version": "1.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/dotgoec/el-automata#readme",
   "dependencies": {
+    "@gim1ing/chatgpt-authenticator": "^0.0.5",
+    "cgpt-token": "^1.0.0",
+    "chat-gpt-authenticator": "^0.5.0",
+    "chatgpt": "^5.2.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "openai": "^3.3.0",
+    "openai-token": "^1.0.0",
     "socket.io": "^4.7.1"
   }
 }
